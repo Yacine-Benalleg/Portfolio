@@ -1,3 +1,4 @@
+import myImage from "./hero/me4.png";
 import brainwave from "./brainwave.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -78,6 +79,7 @@ import mailIcon from "./socials/mail.svg";
 import githubIcon from "./socials/git.svg";
 
 export {
+  myImage,
   mailIcon,
   githubIcon,
   brainwave,

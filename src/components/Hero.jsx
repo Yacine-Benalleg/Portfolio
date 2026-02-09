@@ -1,4 +1,4 @@
-import { curve } from "../assets";
+import { curve, myImage } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { ScrollParallax } from "react-just-parallax";
@@ -51,7 +51,7 @@ const Hero = () => {
             {/* Image Card */}
             <div className="relative z-10 overflow-hidden rounded-2xl border border-n-6 bg-n-8 shadow-2xl">
               <img
-                src="./src/assets/hero/me4.png"
+                src={myImage}
                 alt="Yacine Benalleg"
                 className="w-full object-cover aspect-[5/4]"
               />
