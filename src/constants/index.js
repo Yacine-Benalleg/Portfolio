@@ -10,6 +10,7 @@ import {
   telegram,
   mailIcon,
   githubIcon,
+  CardUrl,
 } from "../assets";
 
 export const navigation = [
@@ -58,7 +59,7 @@ export const projects = [
     demo: "https://smart-budget-optimizer-beta.vercel.app",
     github: "https://github.com/Yacine-Benalleg/smart-budget-optimizer",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    imageUrl: "./src/assets/benefits/image-2.png",
+    imageUrl: CardUrl,
   },
 
   {
@@ -70,7 +71,7 @@ export const projects = [
     github: "https://github.com/Yacine-Benalleg/zentry_yacine",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     light: true,
-    imageUrl: "./src/assets/benefits/image-2.png",
+    imageUrl: CardUrl,
   },
 
   {
@@ -81,7 +82,7 @@ export const projects = [
     demo: "https://frontend-mastery-g300jj26x-yacine-benallegs-projects.vercel.app/",
     github: "https://github.com/Yacine-Benalleg/Frontend-Mastery",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    imageUrl: "./src/assets/benefits/image-2.png",
+    imageUrl: CardUrl,
   },
 ];
 

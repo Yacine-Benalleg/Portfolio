@@ -77,7 +77,7 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 import mailIcon from "./socials/mail.svg";
 import githubIcon from "./socials/git.svg";
-
+import CardUrl from "./benefits/image-2.png";
 export {
   myImage,
   mailIcon,
@@ -150,4 +150,5 @@ export {
   instagram,
   telegram,
   twitter,
+  CardUrl,
 };
